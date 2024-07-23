@@ -1,0 +1,43 @@
+body{
+    display :flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+#cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+#card{
+    gap: 10px;
+    position: relative;
+}
+img{
+    height:250px;
+    width:280px;
+
+}
+#h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+#h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: brown;
+}
+#text{
+    display :flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+    color:black;
+    position: absolute;
+    bottom:20px;
+    left :35px;
+    
+    
+}
